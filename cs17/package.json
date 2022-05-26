@@ -1,0 +1,24 @@
+{
+  "name": "cs17",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^9.0.2"
+  },
+  "dependencies": {
+    "bs-readline": "^1.0.4",
+    "bsb": "^0.0.1",
+    "file-system": "^2.2.2",
+    "promise-fs": "^2.1.1",
+    "@reason-native/rely": "*"
+  }
+}

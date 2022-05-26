@@ -1,0 +1,1 @@
+fs.writeFile('ex313_archivo_texto.txt', 'Node.js v. 10.0')
